@@ -45,6 +45,7 @@ console.log(filterArr)
 let str = prompt('Введите строку')
 let splittedStr = str.split(' ')
 let result = splittedStr.filter(it => it.length > 4).length
+console.log(result)
 
 //8 задание 
 const str1 = 'abcd123456ef5234'
